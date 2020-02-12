@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <WebView
+        android:id="@+id/myWeb"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        />
+
+    <Button
+        android:id="@+id/wcu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4CAF50"
+        android:text="WCU"
+        android:textColor="#264211"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <Button
+        android:id="@+id/ada"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#E91E63"
+        android:text="ADA"
+        android:textColor="#770D30"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <Button
+        android:id="@+id/banm"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#2196F3"
+        android:text="BANM"
+        android:textColor="#0025E0"
+        android:textSize="@android:dimen/app_icon_size" />
+
+</LinearLayout>
